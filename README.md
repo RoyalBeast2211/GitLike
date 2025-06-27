@@ -6,8 +6,6 @@ A Git version control system implementation written in Python, providing core Gi
 
 GitLike is a Git clone that implements the fundamental features of Git, including repository initialization, file tracking, commits, branching, and more. This project demonstrates how Git works under the hood by reimplementing its core data structures and operations.
 
-This implementation is based on the [Wyag (Write Yourself a Git)](https://wyag.thb.lt) tutorial by Thibault Polge and provides a fully functional Git-like version control system.
-
 ## Installation
 
 1. Clone the repository:
