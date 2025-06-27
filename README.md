@@ -284,18 +284,26 @@ cd my-repo
 echo "Hello, GitLike!" > hello.txt
 ./gitlike add hello.txt
 
-# Check status
-./gitlike status
-
 # Create a commit
 ./gitlike commit -m "Initial commit"
+![1](https://github.com/user-attachments/assets/811763d9-b2d5-4c61-bfb3-2faf1d35879d)
+
+# Check status
+./gitlike status
+![2](https://github.com/user-attachments/assets/2d1ca13a-30f9-4da9-940c-2df825d4c397)
 
 # View commit history
 ./gitlike log
+![3](https://github.com/user-attachments/assets/d5f8e252-a071-4f66-ab3c-56af34674df1)
 
 # Create a tag
 ./gitlike tag v1.0
 
 # List all references
 ./gitlike show-ref
+
+# cat and hash file
+./gitlike hash-object hello.txt
+![4](https://github.com/user-attachments/assets/590c4b61-ee59-4049-9ac7-874eddf0c8af)
+
 ```
